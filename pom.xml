@@ -51,7 +51,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- jedis11 -->
+        <!-- jedis -->
         <dependency>
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
