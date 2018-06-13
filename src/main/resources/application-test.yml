@@ -1,0 +1,11 @@
+spring:
+  redis:
+    maxActive: 100
+    maxIdle: 100
+    minIdle: 1
+    maxWaitMillis: 10000
+    testOnBorrow: true
+    testOnReturn: true
+    maxTotal: 100
+    ##redis://用户名:密码@host:port/库，其中用户名随意填写的
+    url: redis://devRedis:123456@127.0.0.1:6379/0
